@@ -28,7 +28,7 @@
     <p>Carré de la première valeur : <%= valeurs[0] * valeurs[0] %></p>
 
     <h2>Exercice 2 : La somme des 2 premières valeurs</h2>
-    <p>Somme des deux premières valeurs : <%= valeurs[0] + valeurs[1] %></p>
+    <p>Somme deux premières valeurs : <%= valeurs[0] + valeurs[1] %></p>
 
     <h2>Exercice 3 : La somme de toutes les valeurs</h2>
     <p>
@@ -37,7 +37,7 @@
            somme += valeur;
        }
     %>
-    Somme de toutes les valeurs : <%= somme %>
+    Somme des Valeurs : <%= somme %>
     </p>
 
     <h2>Exercice 4 : La valeur maximum</h2>
@@ -49,7 +49,7 @@
            }
        }
     %>
-    Valeur maximale : <%= max %>
+    Val max : <%= max %>
     </p>
 
     <h2>Exercice 5 : La valeur minimale</h2>
@@ -61,7 +61,7 @@
            }
        }
     %>
-    Valeur minimale : <%= min %>
+    Val min : <%= min %>
     </p>
 
     <h2>Exercice 6 : La valeur la plus proche de 0</h2>
@@ -73,7 +73,7 @@
            }
        }
     %>
-    Valeur la plus proche de 0 : <%= plusProcheDeZero %>
+    Valeur La Plus Proche de 0 : <%= plusProcheDeZero %>
     </p>
 
     <h2>Exercice 7 : La valeur la plus proche de 0</h2>
@@ -85,7 +85,7 @@
            }
        }
     %>
-    Valeur la plus proche de 0 : <%= plusProcheDeZeroV2 %>
+    Valeur La Plus Proche de 0 : <%= plusProcheDeZeroV2 %>
     </p>
 
 <% } %>
