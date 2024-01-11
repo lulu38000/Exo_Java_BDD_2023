@@ -29,18 +29,18 @@
     <h2>Exercice 1 : Comparaison 1</h2>
     <p>
     <% if (intValeurC > intValeurA && intValeurC < intValeurB) { %>
-        Oui, C ( <%= intValeurC %> ) est compris entre A ( <%= intValeurA %> ) et B ( <%= intValeurB %> ).
+         C <%= intValeurC %>  est compris entre A <%= intValeurA %>  et B <%= intValeurB %> .
     <% } else { %>
-        Non, C ( <%= intValeurC %> ) n'est pas compris entre A ( <%= intValeurA %> ) et B ( <%= intValeurB %> ).
+        C <%= intValeurC %>  est pas compris entre A <%= intValeurA %> et B <%= intValeurB %> .
     <% } %>
     </p>
 
     <h2>Exercice 2 : Pair ou Impair ?</h2>
     <p>
     <% if (intValeurC % 2 == 0) { %>
-        Le nombre <%= intValeurC %> est pair.
+        Le nombre <%= intValeurC %> EST pair.
     <% } else { %>
-        Le nombre <%= intValeurC %> est impair.
+        Le nombre <%= intValeurC %> EST impair.
     <% } %>
     </p>
 <% } %>
