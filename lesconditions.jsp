@@ -29,9 +29,9 @@
     <h2>Exercice 1 : Comparaison 1</h2>
     <p>
     <% if (intValeurC > intValeurA && intValeurC < intValeurB) { %>
-         C <%= intValeurC %>  est compris entre A <%= intValeurA %>  et B <%= intValeurB %> .
+          <%= intValeurC %>  est compris entre  <%= intValeurA %>  et  <%= intValeurB %> .
     <% } else { %>
-        C <%= intValeurC %>  est pas compris entre A <%= intValeurA %> et B <%= intValeurB %> .
+         <%= intValeurC %>  est pas compris entre  <%= intValeurA %> et <%= intValeurB %> .
     <% } %>
     </p>
 
