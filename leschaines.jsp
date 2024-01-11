@@ -77,7 +77,7 @@
            }
        }
     %>
-    Nombre de voyelles : <%= voyelles %>, Nombre de consonnes : <%= consonnes %>
+    Les Voyelles : <%= voyelles %>, Les Consonnes : <%= consonnes %>
     </p>
 
 <% } %>
