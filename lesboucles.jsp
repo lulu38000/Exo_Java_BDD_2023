@@ -29,8 +29,8 @@
 
        
 
-        <% for (int i = 0; i < taille; i++) {%>
-            <%for (int j = 0; j < taille; j++) {%>
+        <% for (int i = 0; i < valeur; i++) {%>
+            <%for (int j = 0; j < valeur; j++) {%>
                 <%System.out.print("*");%>
             <% } %>
            <% System.out.println();%>
