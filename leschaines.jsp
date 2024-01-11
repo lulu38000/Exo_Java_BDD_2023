@@ -32,7 +32,7 @@
 
     <h2>Exercice 2 : Affichage vertical</h2>
     <p>
-    <% for (int i = 1; i < chaine.length(); i++) { %>
+    <% for (int i = 0; i < chaine.length(); i++) { %>
         <%= chaine.charAt(i) %><br>
     <% } %>
     </p>
